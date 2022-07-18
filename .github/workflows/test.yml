@@ -2,7 +2,7 @@ name: Test
 
 on:
   schedule:
-    - cron: 15,45 0-18 * * *
+    - cron: 15,45 22-23,0-18 * * *
   push:
     branches:
       - master
